@@ -5,11 +5,11 @@ const router = express.Router();
 
 const {ensureAuth, ensureGuest} = require('../middleware/auth');
 
-// @desc Authenticate with google
+// @desc Authenticate with google, directs to google login page, scope specifies what info we want
 // @route GET /auth/google
 router.get('/google', ensureGuest, passport.authenticate('google', {scope: ['profile']}));
 
-// @desc Google auth callback
+// @desc Google auth callback, google returns info to server
 // @route GET /auth/google/callback
 router.get('/google/callback', ensureGuest, passport.authenticate('google', {failureRedirect: '/'}), (req, res) => {
     res.redirect('/dashboard')
