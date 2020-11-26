@@ -12,7 +12,7 @@ router.get('/google', ensureGuest, passport.authenticate('google', {scope: ['pro
 // @desc Google auth callback, google returns info to server
 // @route GET /auth/google/callback
 router.get('/google/callback', ensureGuest, passport.authenticate('google', {failureRedirect: '/'}), (req, res) => {
-    res.redirect('/dashboard')
+    res.redirect('/dashboard');
 });
 
 // @desc Logout user
