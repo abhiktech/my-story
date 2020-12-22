@@ -20,7 +20,7 @@ I was very interested in building a potentially scalable full stack application.
 ## Local Installation
 - `git pull https://github.com/abhiktech/my-story.git`
 - Install dependencies by looking at `package.json` 
-- *Note* : I had 'nodemon` as a global dependency so you might want to install that too
+- *Note* : I had `nodemon` as a global dependency so you might want to install that too
 - Run the server using `npm run dev`
 
 ## License
