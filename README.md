@@ -19,8 +19,8 @@ I was very interested in building a potentially scalable full stack application.
 
 ## Local Setup
 - Clone this repository using `git pull https://github.com/abhiktech/my-story.git`.
-- Install dependencies using npm by looking at `package.json`.
-- *Note* : I had `nodemon` as a global dependency and I would recommend you to install it using npm.
+- Install dependencies using `npm` by looking at `package.json`.
+- *Note* : I had `nodemon` as a global dependency and I would recommend you to install it using `npm`.
 - Create a `config.env` file in the `config` folder. This file is meant to define environment variables -> `PORT`, `MONGO_URI`, `GOOGLE_CLIENT_ID`, and `GOOGLE_CLIENT_SECRET`.
   - Set `PORT` to  `process.env.PORT` or `3000`.
   - Create a new database in [MongoDB Atlas](https://account.mongodb.com/account/login) and set `MONGO_URI` to the Cluster URI. Follow the docs [here](https://docs.atlas.mongodb.com/getting-started) if you're new to this. You can even use a locally installed version of MongoDB if you want!
