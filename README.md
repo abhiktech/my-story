@@ -17,9 +17,9 @@ I was very interested in building a potentially scalable full stack application.
 - Allows users to perform CRUD operations on their stories.
 - Grants users to view the public stories of other users.
 
-## Local Installation
-- `git pull https://github.com/abhiktech/my-story.git`
-- Install dependencies by looking at `package.json`.
+## Local Setup
+- Clone this repository using `git pull https://github.com/abhiktech/my-story.git`.
+- Install dependencies using npm by looking at `package.json`.
 - *Note* : I had `nodemon` as a global dependency and I would recommend you to install it using npm.
 - Create a `config.env` file in the `config` folder. This file is meant to define environment variables -> `PORT`, `MONGO_URI`, `GOOGLE_CLIENT_ID`, and `GOOGLE_CLIENT_SECRET`.
   - Set `PORT` to  `process.env.PORT` or `3000`.
