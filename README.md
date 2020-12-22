@@ -1,5 +1,5 @@
 # MyStory
-A platform to create, reminisce, and share stories. 
+A platform to create, reminisce, and share stories.__ 
 Link - http://mystory11.herokuapp.com/
 
 ## Motivation
@@ -14,15 +14,19 @@ I was very interested in building a potentially scalable full stack application.
 
 ## Features
 - Enables Google authentication using `Passport.js` and `Google OAuth 2.0 protocol`.
-- Allows users to create, edit, delete, and share stories.
+- Allows users to perform CRUD operation on their stories.
+- Grants users to view the public stories of other users.
 
 ## Local Installation
 - `git pull https://github.com/abhiktech/my-story.git`
-- Install dependencies by looking at package.json 
-- *Note* : I had nodemon as a global dependency so you might want to install that too
+- Install dependencies by looking at `package.json` 
+- *Note* : I had 'nodemon` as a global dependency so you might want to install that too
 - Run the server using `npm run dev`
 
 ## License
-MIT 
+`MIT`
+
+For any suggestions/bugs, feel free to contact me at *abhikmaz@umich.edu*
+
 
 
