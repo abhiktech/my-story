@@ -1,5 +1,5 @@
 # MyStory
-A platform to create, reminisce, and share stories.__ 
+A platform to create, reminisce, and share stories.<br />
 Link - http://mystory11.herokuapp.com/
 
 ## Motivation
